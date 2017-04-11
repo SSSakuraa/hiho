@@ -23,37 +23,6 @@ long long int gcd(long long int x, long long int y) {
 	return x%y == 0 ? y : gcd(y, x%y);
 }
 
-////若n为新质数，添加到primeTable中
-//bool addPrime(long long int n, vector<long long int> &primeTable) {
-//	if (n <2) {
-//		return false;
-//	}
-//	for (long long int i = 0; i<primeTable.size() && primeTable[i] <= sqrt(n); i++) {
-//		if (n%primeTable[i] == 0) {
-//			return false;
-//		}
-//	}
-//	primeTable.push_back(n);
-//	return true;
-//}
-
-
-//void primeCount(long long int n, vector<long long int>&prime, vector<long long int>&count) {
-//	if (n < 2) {
-//		return;
-//	}
-//	for (long long int i = 2; i <= n; i++) {
-//		if (addPrime(i, prime)) {
-//			count.push_back(0);
-//			while (n%i == 0) {
-//				n = n / i;
-//				count[count.size() - 1]++;
-//			}
-//		}
-//	}
-//}
-
-
 void primeCount(long long int n, vector<long long int> &prime, vector<long long int> &count) {
 	if (n < 2) {
 		return;
