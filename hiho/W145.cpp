@@ -25,7 +25,7 @@ using namespace std;
 //5
 const int INF = 1 << 30;
 
-int main()
+int W145()
 {
 	int q;
 	cin >> q;
