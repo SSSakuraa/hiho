@@ -18,5 +18,8 @@
     <ClCompile Include="W144.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="W145.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
